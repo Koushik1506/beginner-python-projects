@@ -34,4 +34,4 @@ for i in qns:
        else:
          print("Incorrect Answer ")
          print("Your final amount: ",fm)
-         break 
+         break
