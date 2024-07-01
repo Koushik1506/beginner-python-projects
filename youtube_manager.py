@@ -87,7 +87,7 @@ class Yt:
         else:
             self.list_videos()
 
-    def recycle_bin(self):
+    def recycle_bin(self):  # Recycle bin functionality
         try:
             with open(f"{self.deleted_file}", "r") as file:
                 del_vid_list = json.load(file)
