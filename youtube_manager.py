@@ -56,7 +56,7 @@ class Yt:
         video_time = input("Enter video Duration: ")
         self.videos.append({"name": video_name, "Duration": video_time})
         print("\n\"Added Successfully\"")
-        self.save_to_files(self.videos)
+        self.save_to_files(self.videos)  #updating latest information about changes
 
     def list_videos(self):
         if len(self.videos) == 0:
