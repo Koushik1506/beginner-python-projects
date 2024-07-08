@@ -26,7 +26,7 @@ match choice:
                     print("\n")
                     print("\"Login Successful\"")
                     print("\n")
-                    print("Here are your detals\n")
+                    print("Here are your details\n")
                     print(f"username - {user_name}")
                     print(f"password - {len(user_password) * "*"}")
         if not flag:
