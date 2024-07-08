@@ -23,13 +23,18 @@ match choice:
             if user_name in name:
                 flag = True
                 if name[user_name] == user_password:
+                    print("\n")
                     print("\"Login Successful\"")
+                    print("\n")
+                    print("Here are your detals\n")
+                    print(f"username - {user_name}")
+                    print(f"password - {len(user_password) * "*"}")
         if not flag:
             print("User Not Found")
             print("\"Please Register\"")
     case "2":
-        user_name = input("Enter Username: ")
-        user_password = input("Create a Password: ")
+        user_name = input("Create A Username: ")
+        user_password = input("Create A Password: ")
         validation_password = input("Confirm Your Password: ")
         if user_password == validation_password:
             info.append({user_name: user_password})
