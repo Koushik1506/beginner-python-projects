@@ -1,4 +1,4 @@
-qns=["What is capital of India?", "Who invented Electric Bulb?","Wh\o is the Father of Computer?"]
+qns=["What is capital of India?", "Who invented Electric Bulb?","Who is the Father of Computer?"]
 fm=0
 for i in qns:
   print(i)
